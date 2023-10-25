@@ -1,0 +1,135 @@
+
+       body {
+            font-family: Arial, sans-serif;
+          
+			margin: 0;
+			padding: 0;
+			
+		}
+        
+		header,nav,main,footer{
+			width: 1300px;
+			margin: 0 auto;
+			padding: 30px;	
+		}
+
+        header {
+            text-align: center;
+            background-color: #FF4444;
+            color: #fff;
+            padding: 20px 0;
+            height: 50px;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #6669F3;
+            padding: 10px 0;
+            height: 60px;
+            
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 40px;
+            list-style-type: none;
+            vertical-align: -20px;
+            
+        }
+    footer{
+    text-align: center;
+            background-color: #FF4444;
+            color: #fff;
+            padding: 20px 0;
+            height: 50px;
+}
+    a:hover {
+        background-color: #ff0000;
+        color: #fff;
+        padding: 15px;
+    
+}
+
+    nav ul li a{
+        text-decoration: none;
+        border-radius: 30px;
+}
+audio, iframe {
+    display: block;
+    margin: 10px auto;
+}
+video{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #555;
+        }
+		section{
+			width: 700px;
+			margin: 40px auto;
+			background-color: cornflowerblue;
+			padding: 30px
+		}
+form{
+    width: 50%;
+    background-color: aqua;
+    color:brown;
+    margin: 30px auto;
+    padding: 30px;
+     
+}
+input[type="text"]{
+    width: 100%;
+    margin: 10px 0px;
+    background-color: firebrick;
+    color: aqua;
+}
+select{
+    margin: 10px 0px;
+    width: 80%;
+    background-color: firebrick;
+    color: aqua;
+    padding: 5px;
+    
+}
+LABEL{
+    font-weight: bolder;
+    
+}
+.salto_linea{
+    display: block;
+    margin: 10px 0px;
+}
+		
+input[type="submit"]{
+    width: 30%;
+    background-color: darkorange;
+    color: aqua;
+	
+    font-weight: bolder;
+    margin: 10px auto;
+    border: 3px solid whithe;
+    padding: 10px;
+}
+
