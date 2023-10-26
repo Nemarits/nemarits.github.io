@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="../css/animate.min.css" rel="stylesheet" type="text/css">
+	<title>mi primera pagina web</title>
+	<style>
+		 body {
+            font-family: Arial, sans-serif;
+        }
+		*{
+			margin: 0;
+			padding: 0;
+			
+		}
+		header,nav,main,footer{
+			width: 1300px;
+			margin: 0 auto;
+			padding: 30px;	
+		}
+
+	
+		header {
+            text-align: center;
+            background-color: #FF4444;
+            color: #fff;
+            padding: 20px 0;
+            height: 50px;
+			
+		}
+		nav {
+            text-align: center;
+            background-color: #6669F3;
+            padding: 10px 0;
+            height: 60px;
+				
+			}
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 40px;
+            list-style-type: none;
+            vertical-align: -20px;
+            
+        }
+    a:hover {
+        background-color: #ff0000;
+        color: #fff;
+        padding: 15px;
+    
+}
+
+    nav ul li a{
+        text-decoration: none;
+        border-radius: 30px;
+}
+		footer{
+			height: 50px;
+			background-color: #bcfddc;
+		}
+		footer{
+    text-align: center;
+            background-color: #FF4444;
+            color: #fff;
+            padding: 20px 0;
+            height: 50px;
+}
+		section{
+			width: 700px;
+			margin: 40px auto;
+			background-color: #C1D5F9;
+			padding: 30px
+		}
+        
+		img {
+   			 width: 50%;
+            height: auto;
+     }
+        table{
+            width: 80%;
+           border: 2px solid #b25254;
+            border-collapse: collapse;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        td, th{
+            border: 2px solid #b25254;
+            border-radius: 20px;
+            text-align: center;
+        }
+        tr td img{
+            display: block;
+            margin: 0 auto;
+        }
+        .tabla_1 tbody td:hover{
+            background: blue;
+            color: aqua
+        }
+        #tabla especial tbody tr:nth-child(odd){
+            background-color: blue;
+            color: aqua;    
+        }
+        #tabla especial tbody tr:nth-child(odd){
+            background-color: #ffa54b;
+            color: #aa0000;
+        }
+        #tabla_especial thead th{
+            background-color: #ff5656;
+            color: aqua;
+        }
+
+            
+	</style>
+</head>
+<body>
+	<header>
+	<h1 class="animate__animated animate__flipInX">MIS AMIGOS</h1>
+	</header>
+<nav>
+        <ul> 
+        <li><a href="../html/quiensoy.html">¿Quién soy?</a></li>
+            <li><a href="../html/mifamilia.html">Mi familia</a></li>
+            <li><a href="../html/misamigos.html">Mis amigos</a></li>
+            <li><a href="../html/mishobies.html">Mis hobbies</a></li>
+            <li><a href="../html/misartistasfavoritos.html">Artistas favoritos</a></li>
+		    <li><a href="../html/conociendonos.html">Conociendonos</a></li>
+        </ul>
+        </nav>
+	<main>
+	<section>
+		<h2>Universidad </h2>
+      <p>Estos son algunos de mis amigos que he conocido atravez del tiempo en el que estado en la universidad los quiero mucho. </p>
+        <table class="tabla_1" width="200" border="1>">
+        <thead>
+            <th>foto</th>
+            <th>nombre</th>
+            <th>Email</th>
+            <th>Descripcion</th>
+            </thead>
+            <tbody>
+                <tr>
+                <td><img src="../media/imagenes/misamigos/arantxa.png" alt="sdfjdsjf"></td>
+                <td>Arantxa</td>
+                <td>arant@gmail.com</td>
+                <td>Ella es muy divertida y siempre jala a todo y le va mal en el amor</td>
+                </tr>
+                <tr>
+                <td><img src="../media/imagenes/misamigos/yael.png" alt="foto"> </td> 
+                <td>Yael</td>
+                <td>yael@gmail.com</td>
+                <td>mi primer amigo de la uni, es muy amigable y talentoso</td>
+                </tr>
+                <tr>
+                <td><img src="../media/imagenes/misamigos/karina.png" alt="foto"> </td> 
+                <td>Karina</td>
+                <td>karina@gmail.com</td>
+                <td>Ella es muy talentosa, sabe dibujar muy bien. </td>
+                </tr>
+                <tr>
+                <td><img src="../media/imagenes/misamigos/darious.png" alt="foto"></td>
+                <td>Darious</td>
+                <td>Darious@gmail.com</td>
+                <td>El es muy amigable y muy alto, juega muy bien frontenis.</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+        
+		</section>
+		
+	  <section>
+		<h2>Preparatoria</h2>
+			<p>tuve pocos amigos en la preparatoria pero los poco que tuve fueron muy cercanos a mi.</p>
+          <table id="tabla especial" width="60%" border="0>" cellspacing="5">
+              
+        <thead>
+            <th>foto</th>
+            <th>nombre</th>
+            <th>Email</th>
+            <th>Descripcion</th>
+            </thead>
+            <tbody>
+                <tr>
+                <td><img src="../media/imagenes/misamigos/miguel.png" alt="sdfjdsjf"></td>
+                <td>Miguel</td>
+                <td>miguel@gmail.com</td>
+                <td>el es muy chistoso, tiene un gran talento contando historias.</td>
+                </tr>
+                <tr>
+                <td><img src="../media/imagenes/misamigos/julio.png" alt="fdsafdsf"></td>
+                <td>Julio</td>
+                <td>julio@gmail.com</td>
+                <td>el es alguien que no le da pena nada es muy transparente y era lo que me agradaba de el</td>
+                </tr>
+                <tr>
+                <td><img src="../media/imagenes/misamigos/sebas.png" alt="sdf"></td>
+                <td>sebastian</td>
+                <td>sebastian@gmail.com</td>
+                <td>el era una persona super sociable donde sea que fuera hacia amigos o tenia amigos.</td>
+                </tr>
+                <tr>
+                <td><img src="../media/imagenes/misamigos/itzel.png" alt="sdf"></td>
+                <td>juanito</td>
+                <td>bodoque@gmail</td>
+                <td>ella es una niña que siempre esta feliz y le sorprende todo.</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+		</section>
+	</main>
+	<footer>
+    <h3> Elaborado por Nemarits S.A. DE C.V.</h3>
+    </footer>
+	
+</body>
+</html>

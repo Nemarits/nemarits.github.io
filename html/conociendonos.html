@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="../css/animate.min.css" rel="stylesheet" type="text/css">
+    <title>Mi Página Personal</title>
+	<link rel="stylesheet" type="text/css" href="../css/style_page.css">
+</head>
+<body>
+    <header>
+        <h1 class="animate__animated animate__flipInX">conociendonos</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../html/quiensoy.html">¿Quién soy?</a></li>
+            <li><a href="../html/mifamilia.html">Mi familia</a></li>
+            <li><a href="../html/misamigos.html">Mis amigos</a></li>
+            <li><a href="../html/mishobies.html">Mis hobbies</a></li>
+            <li><a href="../html/misartistasfavoritos.html">Artistas favoritos</a></li>
+		    <li><a href="../html/conociendonos.html">Conociendonos</a></li>
+			</ul>
+</nav>
+    <main>
+        <section >
+            <h2>FORMULARIO</h2>
+            
+            <form method="get" action="quien soy.html">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="pais">Pais</label>
+                <select id="pais" name="pais">
+                    <option value="argentina">Argentina</option>
+                    <option value="bolivia">Bolivia</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="peru">Peru</option>
+                </select>
+                <label class="salto_linea" for="genero">genero</label>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="masculino">masculino</label>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="femenino">femenino</label>
+                <label class="salto_linea" for="musica">¿cual es tu genero favorito de musica?</label>
+                <input type="checkbox" id="rock" name="rock" value="rock">
+                <label for="rock">Rock</label>
+                <input type="checkbox" id="jazz&blues" name="jazz&blues" value="jazz&blues">
+                <label for="jazz&blues">jazz&blues</label>
+                <input class="salto_linea" type="submit" value="enviar">                
+                
+                
+            </form>
+		<form action="procesar.php" method="post">
+    <label for="pregunta">¿En que color estoy pensando?:</label>
+    <textarea id="pregunta" name="pregunta" rows="4" cols="50"></textarea>
+	<input type="submit" value="Enviar">
+</form>
+        </section>
+       
+    </main>
+<footer>
+    <h3> Elaborado por Nemarits S.A. DE C.V.</h3>
+    </footer>
+        
+</body>
+</html>
